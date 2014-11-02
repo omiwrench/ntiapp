@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+  xmlns:tools="http://schemas.android.com/tools"
+  tools:ignore="MissingTranslation">
+
+    <string name="error_no_restaurants_found">Inga restauranger hittades.</string>
+    
+    <string name="font_news_title">fonts/PlayfairDisplay-BoldItalic.otf</string>
+	<string name="font_main_menu_button">fonts/AlfaSlabOne-Regular-OTF.otf</string>
+	<string name="font_small_type">fonts/Raleway-Thin.otf</string>
+	<string name="font_content">fonts/Raleway-Light.otf</string>
+	
+	<!-- Preference strings -->
+	<string name="pref_category_general">Allmänt</string>
+	<string name="pref_get_notifications">Visa notifikationer</string>
+	<string name="pref_get_notifications_summ">Visa notifikationer vid olästa nyheter.</string>
+	<string name="pref_show_quickschedule">Visa snabbschema</string>
+	<string name="pref_show_quickschedule_summ">Visa nästa lektion i status bar.</string>
+	<string name="pref_category_schoolsoft">SchoolSoft</string>
+	<string name="pref_schoolsoft_username">Användarnamn</string>
+	<string name="pref_schoolsoft_password">Lösenord</string>
+	
+	<string name="url_restaurants_file">https://dl.dropboxusercontent.com/s/1zjqm89gu7gitsb/restaurants.xml?dl=1%26token_hash=AAGHi9nrAuXM6UzBife4gzzc8ZPn_dZ0gZQ9mFW58qUFzQ</string>
+    
+    <string name="app_name">NTI-Appen</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="splashDescription">Welcome to NTI-Appen</string>
+    <string name="mainmenu_button_1">Mitt Schema</string>
+    <string name="mainmenu_button_2">Andra Scheman</string>
+    <string name="mainmenu_button_3">Restauranger</string>
+    <string name="mainmenu_button_4">Snabbinfo</string>
+    <string name="mainmenu_button_5">Nyheter</string>
+    <string name="label_schedule">Ditt Schema</string>
+    <string name="label_other_schedules">Andra Scheman</string>
+    <string name="label_restaurants">Resturanger</string>
+    <string name="label_news">Nyheter</string>
+    <string name="label_info">Snabbinfo</string>
+    <string name="info_title">Snabbinfo!</string>
+	<string name="schedule_date_format">HH:mm</string>
+	<string name="name_search_hint">Sök efter namn</string>
+	<string name="search_spinner_prompt">Välj sökningstyp</string>
+	<string name="day_0">Måndag</string>
+	<string name="day_1">Tisdag</string>
+	<string name="day_2">Onsdag</string>
+	<string name="day_3">Torsdag</string>
+	<string name="day_4">Fredag</string>
+	<string name="first_time_description">För att använda appen måste du logga in med din SchoolSoft-information.</string>
+	<string name="login_failed_description">Du kanske stavade fel, alternativt så ligger SchoolSofts servrar nere för tillfället</string>
+	
+	<string name="credits_title">NTI-Appen</string>
+	<string name="credits_title_sub">Skapat av Felix Andersson, TE13A</string>
+	<string name="credits_description">Produktionen av den här appen började i februari 2014, min andra termin på NTI. Om du har synpunkter eller hittat en bugg i appen får du gärna säga till om du ser mig i korridorerna, alternativt maila mig på ntiapp@omiwrench.com. Du kan hitta mer om mig på min hemsida: www.omiwrench.com</string>
+	
+	<string-array name="search_array">
+	    <item>Elever</item>
+	    <item>Lärare</item>
+	</string-array>
+    
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_schoolsoft_dialog_title">30sp</dimen>
+    <dimen name="text_schoolsoft_dialog_title_smaller">22sp</dimen>
+    <dimen name="text_schoolsoft_dialog_content">25sp</dimen>
+    <dimen name="text_schoolsoft_dialog_content_smaller">20sp</dimen>
+    <dimen name="text_content_smaller">18sp</dimen>
+    <dimen name="day_tab_not_selected">14sp</dimen>
+    <dimen name="news_title_text_size">8sp</dimen>
+    <dimen name="news_author_text_size">7sp</dimen>
+    <dimen name="news_date_text_size">5sp</dimen>
+    <dimen name="news_content_text_size">5sp</dimen>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/nti_color">
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/pager_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager_periods"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/pager_indicator"/>
+
+</RelativeLayout>

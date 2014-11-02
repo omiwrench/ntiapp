@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurants>
+    <restaurantList>
+	    <restaurant>
+	        <name>Aroti Restaurang</name>
+	        <description>Serverar indisk mat</description>
+	        <lon>18.052254</lon>
+	        <lat>59.336146</lat>
+			<extra>false</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Ashoka</name>
+	        <description>Erbjuder indisk mat för 68 kr. ENDAST TAKE AWAY!</description>
+	        <lon>18.050232</lon>
+	        <lat>59.341141</lat>
+			<extra>true</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Café Canapé</name>
+	        <description>Serverar dagens lunch, lasagne, husmanskost, sallad, mackor</description>
+	        <lon>18.048225</lon>
+	        <lat>59.339249</lat>
+			<extra>false</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Cesannas</name>
+	        <description>Erbjuder 2 olika sorters husmanskost-rätter med måltidsdryck, sallad och hembakt bröd för 50 kr.</description>
+	        <lon>18.049398</lon>
+	        <lat>59.344706</lat>
+			<extra>false</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Christophers Place</name>
+	        <description>Erbjuder Pastarätter/Pizza/Grillrätter för 50 kr</description>
+	        <lon>18.027264</lon>
+	        <lat>59.331153</lat>
+			<extra>false</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Dagobert</name>
+	        <description>OBS! ENDAST FRÅN 12.30 !!   Erbjuder lunch för 65 kronor. Husmanskost, pizza, pasta, sallader</description>
+	        <lon>18.060518</lon>
+	        <lat>59.345624</lat>
+			<extra>true</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Derya</name>
+	        <description>Erbjuder kebab med bröd, pizza mm</description>
+	        <lon>18.049719</lon>
+	        <lat>59.341286</lat>
+			<extra>false</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Döbelns Pizzeria</name>
+	        <description></description>
+	        <lon>18.057444</lon>
+	        <lat>59.345428</lat>
+			<extra>true</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Eastanbul Kolgrill &amp; Meze</name>
+	        <description>Erbjuder meze-tallrikar, kyckling och kött</description>
+	        <lon>18.052888</lon>
+	        <lat>59.343495</lat>
+			<extra>false</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Falafelkungen</name>
+	        <description>Erbjuder bl a en meny där det ingår Kebab med tillbehör och dryck.</description>
+	        <lon>18.055122</lon>
+	        <lat>59.343425</lat>
+			<extra>false</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Govindas Restaurang</name>
+	        <description>Erbjuder gryta med varmrätt, sallad och dryck för 50 kr</description>
+	        <lon>18.029253</lon>
+	        <lat>59.33269</lat>
+			<extra>false</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Kebabkungen</name>
+	        <description>Erbjuder menyer från 45 kr</description>
+	        <lon>18.054042</lon>
+	        <lat>59.343793</lat>
+			<extra>false</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Kungsholmens Pizzeria</name>
+	        <description>Erbjuder pastarätt, hamburgare med pommes eller pizza inkl måltidsdryck för 50 kr. OBS! Mellan 10.45-12.15 endast take-away!</description>
+	        <lon>18.039238</lon>
+	        <lat>59.333333</lat>
+			<extra>false</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>La Grande Pizzeria</name>
+	        <description>Erbjuder eleverna dagens husman/pizza/kebab/sallad för 55 kr</description>
+	        <lon>18.047392</lon>
+	        <lat>59.340112</lat>
+			<extra>true</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Libanon Meze och Grill</name>
+	        <description>Erbjuder tre olika kyckling, en biff med valris/potatis/bulgur samt vatten för 55 kr</description>
+	        <lon>18.062199</lon>
+	        <lat>59.335312</lat>
+			<extra>true</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Pong</name>
+	        <description>Erbjuder lunch för 55 kr</description>
+	        <lon>18.062199</lon>
+	        <lat>59.335312</lat>
+			<extra>true</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Little India</name>
+	        <description>Erbjuder lunch inkl dryck för 65 kr</description>
+	        <lon>18.062199</lon>
+	        <lat>59.335312</lat>
+			<extra>true</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Mamma Mia</name>
+	        <description>Erbjuder lunch för 50 kr</description>
+	        <lon>18.04861</lon>
+	        <lat>59.3392</lat>
+			<extra>false</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Nybergs Konditori</name>
+	        <description>Erbjuder smörgåsar 49 kr, pajer, lasagne, sallader 59 eller 64 kr</description>
+	        <lon>18.051665</lon>
+	        <lat>59.339711</lat>
+			<extra>false</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Ritorno Konditori</name>
+	        <description>Erbjuder baugetter, foccaccia från 30 kr. Pannkakor/köttbullar/wienerkorv/falukorv med potatismos för 50 kr</description>
+	        <lon>18.044604</lon>
+	        <lat>59.341432</lat>
+			<extra>false</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>S:t Eriks Café &amp; Lunch</name>
+	        <description>Erbjuder lunch med vatten för 50 kr. Elever betalar extra för sallad, bröd, smör</description>
+	        <lon>18.039572</lon>
+	        <lat>59.333959</lat>
+			<extra>false</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Sandys Odenplan</name>
+	        <description>Erbjuder ett paket med smörgås och dryck för 50 kr</description>
+	        <lon>18.048527</lon>
+	        <lat>59.343153</lat>
+			<extra>false</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Sandys S:t Eriksplan</name>
+	        <description>Erbjuder dagens macka för 45 kr</description>
+	        <lon>18.037338</lon>
+	        <lat>59.339604</lat>
+			<extra>false</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Shunxin Wok</name>
+	        <description>Erbjuder lunch för 70 kr</description>
+	        <lon>18.059007</lon>
+	        <lat>59.345427</lat>
+			<extra>true</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Sthlm Kebab Bar</name>
+	        <description>Erbjuder Falafel/Hamburgare/Kebab/Pizza med dryck för 50 kr</description>
+	        <lon>18.031999</lon>
+	        <lat>59.333048</lat>
+			<extra>false</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Subway Odenplan</name>
+	        <description>Erbjuder dagens sub med dryck för 51 kr</description>
+	        <lon>18.054619</lon>
+	        <lat>59.343858</lat>
+			<extra>false</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Subway Sveavägen</name>
+	        <description>Erbjuder olika alternativ för mellan 35-50 kr</description>
+	        <lon>18.063093</lon>
+	        <lat>59.335986</lat>
+			<extra>false</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Taco Bar</name>
+	        <description>Erbjuder enchiladas, burritos eller nachos inkl sallad och dryck för 49 kr</description>
+	        <lon>18.056488</lon>
+	        <lat>59.343319</lat>
+			<extra>false</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Taco Bar Kungshallen</name>
+	        <description>Erbjuder lunch med vatten för 55 kr</description>
+	        <lon>18.062199</lon>
+	        <lat>59.335312</lat>
+			<extra>true</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Thai Sushi</name>
+	        <description>Erbjuder lunch för 50 kr</description>
+	        <lon>18.057194</lon>
+	        <lat>59.347457</lat>
+			<extra>false</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Urban Coffee</name>
+	        <description>Erbjuder soppa, toast med olika fyllningar och pastarätter för 50 kr. Salladsbuffé och vatten ingår.</description>
+	        <lon>18.036749</lon>
+	        <lat>59.340257</lat>
+			<extra>false</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Vasastans Bakery and Deli</name>
+	        <description>Erbjuder dagens pastasallad eller dagens baugette med fyllning för 50 kr</description>
+	        <lon>18.059409</lon>
+	        <lat>59.346605</lat>
+			<extra>false</extra>
+	    </restaurant>
+	    <restaurant>
+	        <name>Why Thai</name>
+	        <description>Erbjuder olika thairätter för 50 kr</description>
+	        <lon>18.041617</lon>
+	        <lat>59.333324</lat>
+			<extra>false</extra>
+	    </restaurant>
+    </restaurantList>
+</restaurants>

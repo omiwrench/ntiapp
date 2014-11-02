@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+	    <com.viewpagerindicator.CirclePageIndicator
+	        android:id="@+id/pager_indicator"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="10dp"
+	        android:layout_gravity="center_horizontal"
+	        />
+	    <android.support.v4.view.ViewPager
+	        android:id="@+id/pager_periods"
+	        android:layout_width="match_parent"
+	        android:layout_height="300dp"/>
+    </FrameLayout>
+    <!-- The following is simply an empty view, "covering" the viewpager etc, we use it to listen for clicks -->
+    <View
+        android:id="@+id/multiperiod_click_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

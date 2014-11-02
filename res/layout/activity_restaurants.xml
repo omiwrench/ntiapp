@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    android:background="@color/nti_color">
+    <fragment
+        class="com.google.android.gms.maps.MapFragment"
+        android:id="@+id/restaurants_map"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <com.nti.flux.ntiapp.view.NonSwipeableViewPager
+        android:id="@+id/restaurants_bottom_panel"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+	    android:layout_height="0dp"/>
+    <LinearLayout
+        android:id="@+id/error_view_restaurants"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"/>
+    
+</LinearLayout>

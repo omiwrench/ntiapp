@@ -1,0 +1,98 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nti_color"
+    tools:context=".SplashActivity" >
+  <LinearLayout
+        android:id="@+id/container_mainmenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+	
+		<ImageView
+		    android:id="@+id/splashImage"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:src="@drawable/logo_white"
+		    android:contentDescription="@string/splashDescription"/>
+		
+		<LinearLayout 
+		    android:id="@+id/mainMenu_buttons"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical"
+		    android:layout_marginTop="20dp">
+		    <Button
+				android:textColor="@drawable/main_menu_button_text_color"
+		        android:text="@string/mainmenu_button_1"
+		        android:id="@+id/button_schedule"
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:layout_marginBottom="@dimen/mainmenu_button_spacing"
+		        android:background="@drawable/main_menu_button"/>
+    		
+		    <Button
+				android:textColor="@drawable/main_menu_button_text_color"
+		        android:text="@string/mainmenu_button_2"
+		        android:id="@+id/button_other_schedules"
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:layout_marginBottom="@dimen/mainmenu_button_spacing"
+		        android:background="@drawable/main_menu_button"/>
+		    
+		    <Button
+				android:textColor="@drawable/main_menu_button_text_color"
+		        android:text="@string/mainmenu_button_3"
+		        android:id="@+id/button_restaurants"
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:layout_marginBottom="@dimen/mainmenu_button_spacing"
+		        android:background="@drawable/main_menu_button"/>
+    		
+		    <!--<Button
+				android:textColor="@drawable/main_menu_button_text_color"
+		        android:text="@string/mainmenu_button_4"
+		        android:id="@+id/button_info"
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:layout_marginBottom="@dimen/mainmenu_button_spacing"
+		        android:background="@drawable/main_menu_button"/> -->
+    		
+		    <Button
+				android:textColor="@drawable/main_menu_button_text_color"
+		        android:text="@string/mainmenu_button_5"
+		        android:id="@+id/button_news"
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:layout_marginBottom="@dimen/mainmenu_button_spacing"
+		        android:background="@drawable/main_menu_button"/>
+		</LinearLayout>
+	</LinearLayout>
+	<View
+	    android:id="@+id/dimmer_view_splash"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@color/black"
+	    android:alpha="0.0"/>
+	<LinearLayout 
+	    android:id="@+id/overlay_container_splash"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="center_vertical"
+	    android:orientation="vertical"
+	    android:padding="35dp">
+	    <!-- First time login fragment goes here -->
+	</LinearLayout>
+</FrameLayout>

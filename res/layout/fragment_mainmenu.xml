@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:paddingTop="170dp"
+    android:layout_gravity="bottom" xmlns:app="http://schemas.android.com/apk/res/com.nti.flux.ntiapp">
+    
+    <com.nti.flux.ntiapp.view.MainMenuButton
+        app:text="@string/mainmenu_button_1"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/mainmenu_button_height"
+        android:layout_marginBottom="@dimen/mainmenu_button_spacing">
+    </com.nti.flux.ntiapp.view.MainMenuButton>
+    
+   <!--<RelativeLayout
+        android:id="@+id/button_schedule"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/mainmenu_button_height"
+        android:background="@color/mainmenu_button_color"
+        android:layout_marginBottom="@dimen/mainmenu_button_spacing"
+        android:tag="button1"
+        android:onClick="mainmenuButtonClicked">
+        	<TextView
+        	    android:text="@string/mainmenu_button_1"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="fill_parent"
+        	    android:textColor="#ffffffff"
+        	    android:gravity="center"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/button_other_schedules"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/mainmenu_button_height"
+        android:background="@color/mainmenu_button_color"
+        android:layout_marginBottom="@dimen/mainmenu_button_spacing"
+        android:tag="button2"
+        android:onClick="mainmenuButtonClicked">
+        	<TextView
+        	    android:text="@string/mainmenu_button_2"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="fill_parent"
+        	    android:textColor="#ffffffff"
+        	    android:gravity="center"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/button_info"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/mainmenu_button_height"
+        android:background="@color/mainmenu_button_color"
+        android:layout_marginBottom="@dimen/mainmenu_button_spacing"
+        android:tag="button3"
+        android:onClick="mainmenuButtonClicked">
+    		<TextView
+        	    android:text="@string/mainmenu_button_3"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="fill_parent"
+        	    android:textColor="#ffffffff"
+        	    android:gravity="center"/>
+   	</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/button_news"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/mainmenu_button_height"
+        android:background="@color/mainmenu_button_color"
+        android:layout_marginBottom="@dimen/mainmenu_button_spacing"
+        android:tag="button4"
+        android:onClick="mainmenuButtonClicked">
+    		<TextView
+        	    android:text="@string/mainmenu_button_4"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="fill_parent"
+        	    android:textColor="#ffffffff"
+        	    android:gravity="center"/>
+    </RelativeLayout> -->
+</LinearLayout>

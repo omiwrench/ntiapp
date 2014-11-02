@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:orientation="vertical"
+    android:background="@color/nti_color">
+    <TextView
+        android:id="@+id/text_syncing_title"
+        android:text="Synkar appen med SchoolSoft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_schoolsoft_dialog_title_smaller"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:id="@+id/text_syncing_description"
+        android:text="Detta kan ta en stund."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_schoolsoft_dialog_content_smaller"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="25dp"/>
+    <ProgressBar 
+        android:id="@+id/progress_bar_circle_syncing"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

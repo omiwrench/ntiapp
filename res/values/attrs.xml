@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NewsListItem">
+        <attr name="title" format="string"/>
+        <attr name="content" format="string"/>
+        <attr name="author" format="string"/>
+        <attr name="date" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="InfoListItem">
+        <attr name="info_title" format="string"/>
+        <attr name="info_content" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="MainMenuButton">
+        <attr name="text" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="PeriodView">
+        <attr name="subject" format="string"/>
+        <attr name="time" format="string"/>
+        <attr name="room" format="string"/>
+    </declare-styleable>
+</resources>
